@@ -8,7 +8,7 @@ import Sidebar from '../sidebar.js'
 
 export default function Main() {
     const [mediaWidth, setMediaWidth] = useState(window.innerWidth)
-    const [sidebar, setSidebar] = useState(true)
+    const [sidebar, setSidebar] = useState(false)
 
     useEffect(() => {
         window.addEventListener("resize", () => {
